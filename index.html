@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GeoLocation</title>
+
+  <style>
+    /* custom css for the map container */
+    #map {
+      width:600px;
+      height:600px;
+    }
+  </style>
+
+</head>
+<body>
+
+  <!-- this is where the map will go -->
+  <div id="map"></div>
+
+
+  <!-- search form -->
+  <form id="4sq-search">
+    <input type="text" id="search" placeholder="Search for food">
+    <input type="submit" value="submit">
+  </form>
+
+  <!-- load google maps API, ** put your own API key here ** -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOURAPIKEYHERE"></script>
+
+  <!-- load jQuery -->
+  <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+
+  <!-- place your 4square keys in 4sq.js -->
+  <script src="js/4sq.js"></script>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
